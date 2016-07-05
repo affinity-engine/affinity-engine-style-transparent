@@ -1,7 +1,7 @@
 {
   "name": "affinity-engine-style-transparent",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "No background, no problem",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/affinity-engine/affinity-engine-style-transparent",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -40,7 +40,10 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "affinity-engine",
+    "affinity-engine style",
+    "affinity-engine decorative style"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"

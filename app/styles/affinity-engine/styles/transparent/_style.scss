@@ -1,0 +1,83 @@
+@mixin ae-transparent-base {
+  border-style: $ae-transparent-border-style;
+  border-color: $ae-transparent-border-color;
+  background: $ae-transparent-background-color;
+  color: $ae-transparent-color;
+}
+
+.ae-transparent {
+  @include ae-transparent-base;
+
+  .ae-button {
+    @include ae-transparent-base;
+    @include ae-highlight($ae-transparent-hightlight-text-color);
+
+    border-style: $ae-button-transparent-border-style;
+    background-color: $ae-button-transparent-background-color;
+
+    &:hover, &:focus {
+      background-color: $ae-button-transparent-hover-background-color;
+    }
+  }
+
+  .ae-input {
+    @include ae-highlight($ae-transparent-hightlight-text-color);
+    border-color: $ae-input-transparent-border-color;
+    border-style: $ae-input-ember-border-style;
+    background: $ae-input-transparent-background-color;
+    color: $ae-input-transparent-color;
+
+    &:focus {
+      border-color: $ae-input-transparent-focus-border-color;
+    }
+  }
+}
+
+$ae-menu-included: false !default;
+$ae-menu-bar-included: false !default;
+$ae-text-included: false !default;
+
+@if ($ae-menu-included == true) {
+  .ae-menu.ae-transparent {
+    @extend .ae-transparent;
+
+    background-color: $ae-menu-transparent-background-color;
+    opacity: $ae-menu-transparent-opacity;
+
+    .ae-menu-header {
+      @include ae-highlight($ae-transparent-hightlight-text-color);
+      font-family: $ae-menu-header-transparent-font-family;
+      color: $ae-menu-header-transparent-color;
+    }
+
+    .ae-menu-option {
+      font-weight: $ae-menu-option-transparent-font-weight;
+      font-family: $ae-menu-option-transparent-font-family;
+    }
+  }
+}
+
+@if ($ae-menu-bar-included == true) {
+  .ae-menu-bar.ae-transparent {
+    @extend .ae-transparent;
+  }
+}
+
+@if ($ae-text-included == true) {
+  .ae-text.ae-transparent {
+    opacity: $ae-text-transparent-opacity;
+    font-family: $ae-text-transparent-font-family;
+
+    .ae-text-caption {
+      @extend .ae-transparent;
+      @include ae-highlight($ae-transparent-hightlight-text-color);
+
+      font-family: $ae-text-caption-transparent-font-family;
+      font-weight: $ae-text-caption-transparent-font-weight;
+    }
+
+    .ae-text-body, .ae-text-letter {
+      @include ae-highlight($ae-transparent-hightlight-text-color);
+    }
+  }
+}

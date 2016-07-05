@@ -1,0 +1,38 @@
+$ae-transparent-primary-color: transparent !default;
+$ae-transparent-secondary-color: transparent !default;
+$ae-transparent-highlight-color: transparent !default;
+$ae-transparent-neutral-color: #FFFCC4 !default;
+$ae-transparent-hightlight-text-color: #333333 !default;
+
+$ae-transparent-border-style: $ae-default-border-style !default;
+$ae-transparent-border-color: $ae-transparent-secondary-color !default;
+$ae-transparent-color: $ae-transparent-neutral-color !default;
+$ae-transparent-background-color: $ae-transparent-primary-color !default;
+
+$ae-button-transparent-border-style: $ae-default-border-style !default;
+$ae-button-transparent-background-color: $ae-transparent-primary-color !default;
+
+$ae-button-transparent-hover-background-color: rgba(255, 255, 255, 0.15) !default;
+
+$ae-input-transparent-background-color: $ae-transparent-neutral-color !default;
+$ae-input-transparent-color: $ae-transparent-primary-color !default;
+$ae-input-transparent-border-color: $ae-transparent-secondary-color !default;
+$ae-input-transparent-border-style: $ae-button-transparent-border-style !default;
+
+$ae-input-transparent-focus-border-color: $ae-transparent-highlight-color !default;
+
+// menu
+$ae-menu-transparent-background-color: $ae-transparent-primary-color !default;
+$ae-menu-transparent-opacity: $ae-menu-opacity !default;
+
+$ae-menu-header-transparent-font-family: $ae-menu-header-font-family !default;
+$ae-menu-header-transparent-color: $ae-transparent-neutral-color !default;
+
+$ae-menu-option-transparent-font-weight: $ae-menu-option-font-weight !default;
+$ae-menu-option-transparent-font-family: $ae-menu-option-font-family !default;
+
+// transparent
+$ae-text-transparent-opacity: $ae-text-opacity !default;
+$ae-text-transparent-font-family: $ae-text-font-family !default;
+$ae-text-caption-transparent-font-family: $ae-text-caption-font-family !default;
+$ae-text-caption-transparent-font-weight: $ae-text-caption-font-weight !default;
