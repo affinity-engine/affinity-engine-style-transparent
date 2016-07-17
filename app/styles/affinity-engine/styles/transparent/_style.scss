@@ -23,7 +23,7 @@
   .ae-input {
     @include ae-highlight($ae-transparent-hightlight-text-color);
     border-color: $ae-input-transparent-border-color;
-    border-style: $ae-input-ember-border-style;
+    border-style: $ae-input-transparent-border-style;
     background: $ae-input-transparent-background-color;
     color: $ae-input-transparent-color;
 
