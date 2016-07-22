@@ -19,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "affinity-engine": "git+https://github.com/affinity-engine/affinity-engine.git",
+    "affinity-engine-style-base": "git+https://github.com/affinity-engine/affinity-engine-style-base.git",
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
     "ember-cli": "2.6.2",
@@ -51,6 +52,9 @@
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "after": [
+      "affinity-engine-style-base"
+    ]
   }
 }
