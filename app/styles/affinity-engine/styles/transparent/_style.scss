@@ -39,10 +39,10 @@
   background-color: $ae-menu-transparent-background-color;
   opacity: $ae-menu-transparent-opacity;
 
-  .ae-menu-header {
+  .ae-menu-text {
     @include ae-highlight($ae-transparent-hightlight-text-color);
-    font-family: $ae-menu-header-transparent-font-family;
-    color: $ae-menu-header-transparent-color;
+    font-family: $ae-menu-text-transparent-font-family;
+    color: $ae-menu-text-transparent-color;
   }
 
   .ember-flex-menu-option-button {
