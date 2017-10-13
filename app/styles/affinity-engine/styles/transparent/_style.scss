@@ -20,7 +20,7 @@
     }
   }
 
-  .ae-input {
+  .ae-input, .ae-input-accept {
     @include ae-highlight($ae-transparent-hightlight-text-color);
     border-color: $ae-input-transparent-border-color;
     border-style: $ae-input-transparent-border-style;
