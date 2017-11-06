@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-transparent",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "No background, no problem",
   "keywords": [
     "ember-addon",
@@ -51,6 +51,7 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
+    "demoURL": "http://www.affinityengine.org/#/api/styles/transparent",
     "after": [
       "affinity-engine-style-base"
     ]
